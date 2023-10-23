@@ -1,0 +1,207 @@
+/* mobile */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .navbar-brand {
+    font-size: 14px !important;
+    margin-right: 0px !important;
+    font-weight: bold;
+    line-height: 25px;
+  }
+  .navbar-toggler {
+    border: none !important;
+    font-size: 14px !important;
+  }
+
+  h2::before,
+  h2::after {
+    width: 28% !important;
+  }
+  .center .text,
+  .akshay .text,
+  .item:hover .text {
+    font-size: 13px !important;
+  }
+  .owl-carousel .owl-item img {
+    height: auto !important;
+  }
+  .fa-bars:before,
+  .fa-navicon:before {
+    font-size: 20px;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 1.5rem !important;
+  }
+  h4 {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+  }
+  /* #navbarSupportedContent{
+        display: none;
+    } */
+  h2 {
+    font-size: 23px !important;
+  }
+  p {
+    font-size: 17px;
+  }
+  .navbar-toggler1 {
+    display: block !important;
+    width: 6% !important;
+  }
+  .nav-link,
+  .nav-link i {
+    font-size: 0.9rem !important;
+  }
+  #product p{
+    font-size: 17px !important;
+  }
+  .menuBar{
+    width: 74% !important;
+  }
+  h6.update{
+    font-size: 17px;
+  }
+  .sidenav a{
+    font-size: 14px !important;
+  }
+  .sidenav h3{
+    font-size: 15px!important;
+  }
+  .sidenav .closebtn{
+    font-size: 40px !important;
+  }
+  .dropDownList{
+    padding: 0 30px;
+  }
+  .listImageStyle{
+    width: 40% !important;
+    padding-right: 0px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  h2::before,
+  h2::after {
+    width: 40%;
+  }
+  .navbar-toggler1 {
+    display: block !important;
+    width: auto !important;
+  }
+  .nav-link {
+    padding: 0.5rem 1rem !important;
+  }
+  .nav-link,
+  .nav-link i {
+    font-size: 22px !important;
+  }
+  .navbar-brand,
+  h1 {
+    font-size: 29px !important;
+  }
+  #product p, p {
+    font-size: 17px;
+  }
+  h4 {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+  }
+  h2 {
+    font-size: 24px !important;
+  }
+  .item:hover .text {
+    font-size: 15px !important;
+  }
+  h3 {
+    line-height: 1.7 !important;
+  }
+  .sidenav h3{
+    font-size: 21px !important;
+  }
+  .sidenav a{
+    font-size: 20px !important;
+  }
+  .sidenav .closebtn{
+    font-size: 50px !important;
+  }
+  .dropDownList{
+    padding: 18px 50px 0px 50px;
+  }
+  .sidenav ul{
+    margin-top: 13px;
+  }
+  iframe{
+    height: 100%;
+  }
+}
+/* ipad-pro */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .navbar-nav {
+    gap: 10px;
+  }
+  .navbar-brand {
+    font-size: 23px !important;
+  }
+
+  h2::before,
+  h2::after {
+    width: 40%;
+  }
+  .nav-link{
+    font-size: 20px !important;
+  }
+  h4{
+    font-size: 21px !important;
+    font-weight: 600 !important;
+    line-height: 30px !important;
+  }
+  #product p, p{
+    font-size: 19px;
+  }
+  .item:hover .text{
+    font-size: 18px !important;
+    line-height: 30px !important;
+  }
+  iframe{
+    height: 100%;
+  }
+}
+
+
+/* laptop */
+
+@media (min-width: 1920px) {
+  h3 {
+    font-size: 17px !important;
+    font-weight: bold;
+  }
+  .item:hover .text{
+    font-size: 34px !important;
+    line-height: 47px !important;
+  }
+  h4{
+    font-weight: 600 !important;
+  }
+}
+
+p {
+  color: #42413f;
+}
+
+.footerLogo {
+  font-size: 23px !important;
+  line-height: 34px !important;
+}
+.footerSubLogo {
+  font-size: 16px;
+  margin-bottom: 0.2rem;
+  color: #ada298;
+}
+
+.listImageStyle{
+  display: grid;
+  margin: auto;
+  width: 20%;
+  padding-right: 20px; 
+}
