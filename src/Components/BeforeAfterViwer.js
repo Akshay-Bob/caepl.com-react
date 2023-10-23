@@ -2,34 +2,24 @@ import React from 'react'
 import { Modal } from 'react-bootstrap'
 import { Carousel } from 'bootstrap';
 import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
 
 
 export default function BeforeAfterViwer(props) {
   return (
     <>
-        <Modal show={props.show} onHide={props.handleClose} centered>
-            <Modal.Body style={{ overflow: 'hidden', textAlign: 'center' }}>
-                <Carousel
-                    fade
-                    activeIndex={props.activeIndex}
-                    onSelect={(selectedIndex, e) => {
-                        props.handleSelect(selectedIndex);
-                    }}
-                    interval={null}
-                    >
-                    {props.images.map((image, index) => (
-                        <Carousel.Item key={index}>
-                        <Image
-                            src={image}
-                            rounded
-                            className="img-fluid"
-                            />
-
-                        </Carousel.Item>
-                    ))}
-                </Carousel>
+        <Modal show={props.show} onHide={props.handleClose}>
+        <Button
+            variant="secondary"
+            onClick={props.handleClose}
+            className="position-absolute top-0 start-100 translate-middle"
+            style={{ zIndex: '1', padding: '6px', borderRadius: '50%' }}>
+            &#10006;
+        </Button>
+            <Modal.Body>
+                <Image src={props.images} className='img-fluid'/>
             </Modal.Body>
-        </Modal>    
+      </Modal>
     </>
     )
 }

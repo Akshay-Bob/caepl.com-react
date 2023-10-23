@@ -189,6 +189,118 @@ import objectBig34 from "../Images/final-view-object/34_Object D'Art & Silver.jp
 import objectBig35 from "../Images/final-view-object/35_Object D'Art & Silver.jpg";
 
 
+// models
+
+import model1 from "../Images/models/01_Model_W9U6053-RGB.webp";
+import model2 from "../Images/models/02_Model_W9U3291-RGB.webp";
+import model3 from "../Images/models/03_Model_W9U6208-RGB.webp";
+import model4 from "../Images/models/04_Model_W9U2891-RGB.webp";
+import model5 from "../Images/models/05_Model1G6P4396-RGB.webp";
+import model6 from "../Images/models/06_Model_W9U3796-RGB.webp";
+import model7 from "../Images/models/07_Model1G6P4004-RGB.webp";
+import model8 from "../Images/models/08_Model1G6P5718-RGB.webp";
+import model9 from "../Images/models/09_Model_W9U5713-RGB.webp";
+import model10 from "../Images/models/10_Model_W9U5361-RGB.webp";
+import model11 from "../Images/models/11_Model_W9U3616-RGB.webp";
+import model12 from "../Images/models/12_Model_1G6P1695-RGB.webp";
+import model13 from "../Images/models/13_Model_W9U5250-RGB.webp";
+import model14 from "../Images/models/14_Model_1G6P3757-RGB.webp";
+import model15 from "../Images/models/15_Model_1G6P4444-RGB.webp";
+import model16 from "../Images/models/16_Model_W9U2841--RGB.jpg";
+import model17 from "../Images/models/17_Model_W9U5078-RGB.jpg";
+import model18 from "../Images/models/18_Model_W9U3393-RGB.jpg";
+import model19 from "../Images/models/19_Model_1G6P2221RGB.jpg";
+import model20 from "../Images/models/20_Model_1G6P3329-RGB.jpg";
+import model21 from "../Images/models/21_Model_1G6P3531-RGB.webp";
+import model22 from "../Images/models/22_Model_1G6P2105-RGB.webp";
+import model23 from "../Images/models/23_Model_1G6P3236-RGB.webp";
+import model24 from "../Images/models/24_Model_1G6P1871-RGB.webp";
+import model25 from "../Images/models/25_Model_1G6P1479-COL-RGB.webp";
+import model26 from "../Images/models/26_Model_1G6P3299-RGB.webp";
+import model27 from "../Images/models/27_Model_1G6P3622-RGB.webp";
+import model28 from "../Images/models/28_Model_1G6P4625-RGB.webp";
+import model29 from "../Images/models/29_Model_1G6P5579-RGB.webp";
+import model30 from "../Images/models/30_Model_1G6P4562-RGB.webp";
+import model31 from "../Images/models/31_Model_1G6P6280-RGB.webp";
+import model32 from "../Images/models/32_Model_1G6P6191-RGB.webp";
+import model33 from "../Images/models/33_Model_1G6P4740-RGB.webp";
+import model34 from "../Images/models/34_Model_1G6P6168-RGB.webp";
+import model35 from "../Images/models/35_Model_1G6P4816-RGB.webp";
+
+
+import modelBigBefore1 from "../Images/final-view-models/before/01_Model_Original-16.webp";
+import modelBigBefore2 from "../Images/final-view-models/before/02_Model_Original-27.webp";
+import modelBigBefore3 from "../Images/final-view-models/before/03_Model_Original-1.webp";
+import modelBigBefore4 from "../Images/final-view-models/before/04_Model_Original-22.webp";
+import modelBigBefore5 from "../Images/final-view-models/before/05_Model_Original-21.webp";
+import modelBigBefore6 from "../Images/final-view-models/before/06_Model_Original-10.webp";
+import modelBigBefore7 from "../Images/final-view-models/before/07_Model_Original-26.webp";
+import modelBigBefore8 from "../Images/final-view-models/before/08_Model_Original-5.webp";
+import modelBigBefore9 from "../Images/final-view-models/before/09_Model_Original-7.webp";
+import modelBigBefore10 from "../Images/final-view-models/before/10_Model_Original_W9U5423.webp";
+import modelBigBefore11 from "../Images/final-view-models/before/11_Model_Original.webp";
+import modelBigBefore12 from "../Images/final-view-models/before/12_Model_Original-24.webp";
+import modelBigBefore13 from "../Images/final-view-models/before/13_Model_Original-13.webp";
+import modelBigBefore14 from "../Images/final-view-models/before/14_Model_Original-12.webp";
+import modelBigBefore15 from "../Images/final-view-models/before/15_Model_Original-29.webp";
+import modelBigBefore16 from "../Images/final-view-models/before/16_Model_Original-14.webp";
+import modelBigBefore17 from "../Images/final-view-models/before/17_Model_Original-11.webp";
+import modelBigBefore18 from "../Images/final-view-models/before/18_Model_Original-28.webp";
+import modelBigBefore19 from "../Images/final-view-models/before/19_Model_Original-15.webp";
+import modelBigBefore20 from "../Images/final-view-models/before/20_Model_Original-19.webp";
+import modelBigBefore21 from "../Images/final-view-models/before/21_Model_Original-8.webp";
+import modelBigBefore22 from "../Images/final-view-models/before/22_Model_Original-20.webp";
+import modelBigBefore23 from "../Images/final-view-models/before/23_Model_Original-18.webp";
+import modelBigBefore24 from "../Images/final-view-models/before/24_Model_Original-25.webp";
+import modelBigBefore25 from "../Images/final-view-models/before/25_Model_Original-23.webp";
+import modelBigBefore26 from "../Images/final-view-models/before/26_Model_Original-17.webp";
+import modelBigBefore27 from "../Images/final-view-models/before/27_Model_Original-9.webp";
+import modelBigBefore28 from "../Images/final-view-models/before/28_Model_Original-1G6P4625.webp";
+import modelBigBefore29 from "../Images/final-view-models/before/29_Model_Original-6.webp";
+import modelBigBefore30 from "../Images/final-view-models/before/30_Model_Original-30.webp";
+import modelBigBefore31 from "../Images/final-view-models/before/31_Model_Original-4.webp";
+import modelBigBefore32 from "../Images/final-view-models/before/32_Model_Original-3.webp";
+import modelBigBefore33 from "../Images/final-view-models/before/33_Model_Original-1G6P4740.webp";
+import modelBigBefore34 from "../Images/final-view-models/before/34_Model_Original-2.webp";
+import modelBigBefore35 from "../Images/final-view-models/before/35_Model_Original-1G6P4816.webp";
+
+
+import modelBigAfter1 from "../Images/final-view-models/after/01_Model_W9U6053-RGB.webp";
+import modelBigAfter2 from "../Images/final-view-models/after/02_Model_W9U3291-RGB.webp";
+import modelBigAfter3 from "../Images/final-view-models/after/03_Model_W9U6208-RGB.webp";
+import modelBigAfter4 from "../Images/final-view-models/after/04_Model_W9U2891-RGB.webp";
+import modelBigAfter5 from "../Images/final-view-models/after/05_Model1G6P4396-RGB.webp";
+import modelBigAfter6 from "../Images/final-view-models/after/06_Model_W9U3796-RGB.webp";
+import modelBigAfter7 from "../Images/final-view-models/after/07_Model1G6P4004-RGB.webp";
+import modelBigAfter8 from "../Images/final-view-models/after/08_Model1G6P5718-RGB.webp";
+import modelBigAfter9 from "../Images/final-view-models/after/09_Model_W9U5713-RGB.webp";
+import modelBigAfter10 from "../Images/final-view-models/before/10_Model_Original_W9U5423.webp";
+import modelBigAfter11 from "../Images/final-view-models/before/11_Model_Original.webp";
+import modelBigAfter12 from "../Images/final-view-models/before/12_Model_Original-24.webp";
+import modelBigAfter13 from "../Images/final-view-models/before/13_Model_Original-13.webp";
+import modelBigAfter14 from "../Images/final-view-models/before/14_Model_Original-12.webp";
+import modelBigAfter15 from "../Images/final-view-models/before/15_Model_Original-29.webp";
+import modelBigAfter16 from "../Images/final-view-models/before/16_Model_Original-14.webp";
+import modelBigAfter17 from "../Images/final-view-models/before/17_Model_Original-11.webp";
+import modelBigAfter18 from "../Images/final-view-models/before/18_Model_Original-28.webp";
+import modelBigAfter19 from "../Images/final-view-models/before/19_Model_Original-15.webp";
+import modelBigAfter20 from "../Images/final-view-models/before/20_Model_Original-19.webp";
+import modelBigAfter21 from "../Images/final-view-models/before/21_Model_Original-8.webp";
+import modelBigAfter22 from "../Images/final-view-models/before/22_Model_Original-20.webp";
+import modelBigAfter23 from "../Images/final-view-models/before/23_Model_Original-18.webp";
+import modelBigAfter24 from "../Images/final-view-models/before/24_Model_Original-25.webp";
+import modelBigAfter25 from "../Images/final-view-models/before/25_Model_Original-23.webp";
+import modelBigAfter26 from "../Images/final-view-models/before/26_Model_Original-17.webp";
+import modelBigAfter27 from "../Images/final-view-models/before/27_Model_Original-9.webp";
+import modelBigAfter28 from "../Images/final-view-models/before/28_Model_Original-1G6P4625.webp";
+import modelBigAfter29 from "../Images/final-view-models/before/29_Model_Original-6.webp";
+import modelBigAfter30 from "../Images/final-view-models/before/30_Model_Original-30.webp";
+import modelBigAfter31 from "../Images/final-view-models/before/31_Model_Original-4.webp";
+import modelBigAfter32 from "../Images/final-view-models/before/32_Model_Original-3.webp";
+import modelBigAfter33 from "../Images/final-view-models/before/33_Model_Original-1G6P4740.webp";
+import modelBigAfter34 from "../Images/final-view-models/before/34_Model_Original-2.webp";
+import modelBigAfter35 from "../Images/final-view-models/before/35_Model_Original-1G6P4816.webp";
+
 export const proData = [
     {
         category: 'products',
@@ -594,6 +706,185 @@ export const proData = [
         img: photography9,
         alt: 'MODELS',
         url: 'models',
+        bannerImg: '',
+        desc: 'A special occasion requires invites that are designed and conceptualized keeping the unique event in mind. Contact us for a consultation and let us design bespoke invitations that are perfect for you.',
+        imgDatas: [
+            { 
+                productSm : model1, 
+                productLgBefore: modelBigBefore1,
+                productLgAfter: modelBigAfter1
+            },
+            { 
+                productSm : model2, 
+                productLgBefore: modelBigBefore2,
+                productLgAfter: modelBigAfter2
+            },
+            { 
+                productSm : model3, 
+                productLgBefore: modelBigBefore3,
+                productLgAfter: modelBigAfter3
+            },
+            { 
+                productSm : model4, 
+                productLgBefore: modelBigBefore4,
+                productLgAfter: modelBigAfter4
+            },
+            { 
+                productSm : model5, 
+                productLgBefore: modelBigBefore5,
+                productLgAfter: modelBigAfter5
+            },
+            { 
+                productSm : model6, 
+                productLgBefore: modelBigBefore6,
+                productLgAfter: modelBigAfter6
+            },
+            { 
+                productSm : model7, 
+                productLgBefore: modelBigBefore7,
+                productLgAfter: modelBigAfter7
+            },
+            { 
+                productSm : model8, 
+                productLgBefore: modelBigBefore8,
+                productLgAfter: modelBigAfter8
+            },
+            { 
+                productSm : model9, 
+                productLgBefore: modelBigBefore9,
+                productLgAfter: modelBigAfter9
+            },
+            { 
+                productSm : model10, 
+                productLgBefore: modelBigBefore10,
+                productLgAfter: modelBigAfter10
+            },
+            { 
+                productSm : model11, 
+                productLgBefore: modelBigBefore11,
+                productLgAfter: modelBigAfter11
+            },
+            { 
+                productSm : model12, 
+                productLgBefore: modelBigBefore12,
+                productLgAfter: modelBigAfter12
+            },
+            { 
+                productSm : model13, 
+                productLgBefore: modelBigBefore13,
+                productLgAfter: modelBigAfter13
+            },
+            { 
+                productSm : model14, 
+                productLgBefore: modelBigBefore14,
+                productLgAfter: modelBigAfter14
+            },
+            { 
+                productSm : model15, 
+                productLgBefore: modelBigBefore15,
+                productLgAfter: modelBigAfter15
+            },
+            { 
+                productSm : model16, 
+                productLgBefore: modelBigBefore16,
+                productLgAfter: modelBigAfter16
+            },
+            { 
+                productSm : model17, 
+                productLgBefore: modelBigBefore17,
+                productLgAfter: modelBigAfter17
+            },
+            { 
+                productSm : model18, 
+                productLgBefore: modelBigBefore18,
+                productLgAfter: modelBigAfter18
+            },
+            { 
+                productSm : model19, 
+                productLgBefore: modelBigBefore19,
+                productLgAfter: modelBigAfter19
+            },
+            { 
+                productSm : model20, 
+                productLgBefore: modelBigBefore20,
+                productLgAfter: modelBigAfter20
+            },
+            { 
+                productSm : model21, 
+                productLgBefore: modelBigBefore21,
+                productLgAfter: modelBigAfter21
+            },
+            { 
+                productSm : model22, 
+                productLgBefore: modelBigBefore22,
+                productLgAfter: modelBigAfter22
+            },
+            { 
+                productSm : model23, 
+                productLgBefore: modelBigBefore23,
+                productLgAfter: modelBigAfter23
+            },
+            { 
+                productSm : model24, 
+                productLgBefore: modelBigBefore24,
+                productLgAfter: modelBigAfter24
+            },
+            { 
+                productSm : model25, 
+                productLgBefore: modelBigBefore25,
+                productLgAfter: modelBigAfter25
+            },
+            { 
+                productSm : model26, 
+                productLgBefore: modelBigBefore26,
+                productLgAfter: modelBigAfter26
+            },
+            { 
+                productSm : model27, 
+                productLgBefore: modelBigBefore27,
+                productLgAfter: modelBigAfter27
+            },
+            { 
+                productSm : model28, 
+                productLgBefore: modelBigBefore28,
+                productLgAfter: modelBigAfter28
+            },
+            { 
+                productSm : model29, 
+                productLgBefore: modelBigBefore29,
+                productLgAfter: modelBigAfter29
+            },
+            { 
+                productSm : model30, 
+                productLgBefore: modelBigBefore30,
+                productLgAfter: modelBigAfter30
+            },
+            { 
+                productSm : model31, 
+                productLgBefore: modelBigBefore31,
+                productLgAfter: modelBigAfter31
+            },
+            { 
+                productSm : model32, 
+                productLgBefore: modelBigBefore32,
+                productLgAfter: modelBigAfter32
+            },
+            { 
+                productSm : model33, 
+                productLgBefore: modelBigBefore33,
+                productLgAfter: modelBigAfter33
+            },
+            { 
+                productSm : model34, 
+                productLgBefore: modelBigBefore34,
+                productLgAfter: modelBigAfter34
+            },
+            { 
+                productSm : model35, 
+                productLgBefore: modelBigBefore35,
+                productLgAfter: modelBigAfter35
+            }  
+        ]
     },
     {
         category: 'photography',

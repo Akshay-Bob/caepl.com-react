@@ -97,14 +97,23 @@ function Category() {
         /> */}
 {/* {console.log(type)} */}
         {type === 'models' ? 
-                    <BeforeAfterViwer show={show} handleClose={handleClose} images={matchingService.imgDatas ? matchingService.imgDatas.map((item) => item.productLg) : []}
-                    /> :  
+                    // <BeforeAfterViwer show={show} handleClose={handleClose} 
+                    //   images={matchingService.imgDatas ? matchingService.imgDatas.map((item) => item.productLg) : []}
+                    //   handleSelect={handleSelect}
+                    //   activeIndex={selectedProductIndex}
+                    // /> 
+                    <BeforeAfterViwer 
+                      show={show} 
+                      handleClose={handleClose}
+                      images={matchingService.imgDatas.map((proItem)=>proItem.pro)}  
+                    />
+                    :  
                     <ImageViewer
-                        show={show}
-                        handleClose={handleClose}
-                        images={matchingService.imgDatas ? matchingService.imgDatas.map((item) => item.productLg) : []}
-                        activeIndex={selectedProductIndex}
-                        handleSelect={handleSelect} // Pass the handleSelect function
+                      show={show}
+                      handleClose={handleClose}
+                      images={matchingService.imgDatas ? matchingService.imgDatas.map((item) => item.productLg) : []}
+                      activeIndex={selectedProductIndex}
+                      handleSelect={handleSelect} // Pass the handleSelect function
                     />
         }
         
