@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import Modal from 'react-bootstrap/Modal';
-import Carousel from 'react-bootstrap/Carousel';
-import Image from 'react-bootstrap/Image';
-import { Button } from 'react-bootstrap';
+import React, { useState, useEffect } from "react";
+import Modal from "react-bootstrap/Modal";
+import Carousel from "react-bootstrap/Carousel";
+import Image from "react-bootstrap/Image";
+import { Button } from "react-bootstrap";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import cross from "../Images/cross.svg";
 
 export default function ImageViewer(props) {
   const [zoom, setZoom] = useState(1);
@@ -10,10 +12,9 @@ export default function ImageViewer(props) {
   const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 });
   const [initialPinchDistance, setInitialPinchDistance] = useState(null);
   const [maxZoom, setMaxZoom] = useState(2); // Set an appropriate maximum zoom level
-  
 
   const handleMouseOver = () => {
-    setZoom(1.7);
+    setZoom(4);
     setIsZoomed(true);
   };
 
@@ -32,43 +33,12 @@ export default function ImageViewer(props) {
     setImagePosition({ x, y });
   };
 
-  const handleTouchStart = (e) => {
-    if (e.touches.length === 2) {
-      // Calculate the initial distance between two fingers
-      const touch1 = e.touches[0];
-      const touch2 = e.touches[1];
-      const initialDistance = Math.hypot(touch1.clientX - touch2.clientX, touch1.clientY - touch2.clientY);
-      setInitialPinchDistance(initialDistance);
-    }
-  };
-  
-  const handleTouchMove = (e) => {
-    if (e.touches.length === 2 && initialPinchDistance) {
-      e.preventDefault();
-      // Calculate the current distance between two fingers
-      const touch1 = e.touches[0];
-      const touch2 = e.touches[1];
-      const currentDistance = Math.hypot(touch1.clientX - touch2.clientX, touch1.clientY - touch2.clientY);
-  
-      // Calculate the zoom factor
-      const newZoom = Math.min(Math.max(1, zoom * (currentDistance / initialPinchDistance)), maxZoom);
-  
-      // Set the new zoom level
-      setZoom(newZoom);
-    }
-  };
-  
-  const handleTouchEnd = () => {
-    setInitialPinchDistance(null);
-  };
-  
-
   const imageStyle = {
     transform: `scale(${zoom})`,
-    transition: isZoomed ? 'transform 0.5s' : 'none',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    display: 'block',
+    transition: isZoomed ? "transform 0.5s" : "none",
+    marginLeft: "auto",
+    marginRight: "auto",
+    display: "block",
     transformOrigin: `${imagePosition.x}% ${imagePosition.y}%`, // Set the zoom origin based on mouse position
   };
 
@@ -84,11 +54,11 @@ export default function ImageViewer(props) {
         variant="secondary"
         onClick={props.handleClose}
         className="position-absolute top-0 start-100 translate-middle"
-        style={{ zIndex: '1', padding: '6px', borderRadius: '50%' }}
+        style={{ zIndex: "3", padding: "3px", paddingTop: "0px" }}
       >
-         &#10006;
+        <img src={cross} style={{ width: "20px" }} />
       </Button>
-      <Modal.Body onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} onMouseMove={handleMouseMove} style={{ overflow: 'hidden', textAlign: 'center' }}>
+      <Modal.Body style={{ overflow: "hidden", textAlign: "center" }}>
         <Carousel
           fade
           activeIndex={props.activeIndex}
@@ -98,19 +68,20 @@ export default function ImageViewer(props) {
           interval={null}
         >
           {props.images.map((image, index) => (
-            <Carousel.Item key={index}>
-              {/* <Image src={image} rounded className="img-fluid" style={imageStyle} /> */}
-
-              <Image
-                  src={image}
-                  rounded
-                  className="img-fluid"
-                  style={imageStyle}
-                  onTouchStart={handleTouchStart}
-                  onTouchMove={handleTouchMove}
-                  onTouchEnd={handleTouchEnd}
-                />
-
+            <Carousel.Item
+              key={index}
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+              onMouseMove={handleMouseMove}
+            >
+              <LazyLoadImage
+                src={image}
+                rounded
+                // className="img-fluid"
+                width="auto"
+                height="600px"
+                style={imageStyle}
+              />
             </Carousel.Item>
           ))}
         </Carousel>

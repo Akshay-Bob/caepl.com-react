@@ -251,11 +251,13 @@ h6.update {
 }
 
 .modal-content .carousel-control-next {
-  right: -16px;
+  right: 0px;
+  opacity: 0.9;
 }
 
 .modal-content .carousel-control-prev {
-  left: -16px;
+  left: 0px;
+  opacity: 0.9;
 }
 .modal-header {
   position: absolute;

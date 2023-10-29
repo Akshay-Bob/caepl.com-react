@@ -53,30 +53,33 @@
   .nav-link i {
     font-size: 0.9rem !important;
   }
-  #product p{
+  #product p {
     font-size: 17px !important;
   }
-  .menuBar{
+  .menuBar {
     width: 74% !important;
   }
-  h6.update{
+  h6.update {
     font-size: 17px;
   }
-  .sidenav a{
+  .sidenav a {
     font-size: 14px !important;
   }
-  .sidenav h3{
-    font-size: 15px!important;
+  .sidenav h3 {
+    font-size: 15px !important;
   }
-  .sidenav .closebtn{
+  .sidenav .closebtn {
     font-size: 40px !important;
   }
-  .dropDownList{
+  .dropDownList {
     padding: 0 30px;
   }
-  .listImageStyle{
+  .listImageStyle {
     width: 40% !important;
     padding-right: 0px !important;
+  }
+  .modal-dialog {
+    margin: 20px !important;
   }
 }
 
@@ -100,7 +103,8 @@
   h1 {
     font-size: 29px !important;
   }
-  #product p, p {
+  #product p,
+  p {
     font-size: 17px;
   }
   h4 {
@@ -116,22 +120,22 @@
   h3 {
     line-height: 1.7 !important;
   }
-  .sidenav h3{
+  .sidenav h3 {
     font-size: 21px !important;
   }
-  .sidenav a{
+  .sidenav a {
     font-size: 20px !important;
   }
-  .sidenav .closebtn{
+  .sidenav .closebtn {
     font-size: 50px !important;
   }
-  .dropDownList{
+  .dropDownList {
     padding: 18px 50px 0px 50px;
   }
-  .sidenav ul{
+  .sidenav ul {
     margin-top: 13px;
   }
-  iframe{
+  iframe {
     height: 100%;
   }
 }
@@ -148,26 +152,26 @@
   h2::after {
     width: 40%;
   }
-  .nav-link{
+  .nav-link {
     font-size: 20px !important;
   }
-  h4{
+  h4 {
     font-size: 21px !important;
     font-weight: 600 !important;
     line-height: 30px !important;
   }
-  #product p, p{
+  #product p,
+  p {
     font-size: 19px;
   }
-  .item:hover .text{
+  .item:hover .text {
     font-size: 18px !important;
     line-height: 30px !important;
   }
-  iframe{
+  iframe {
     height: 100%;
   }
 }
-
 
 /* laptop */
 
@@ -176,12 +180,16 @@
     font-size: 17px !important;
     font-weight: bold;
   }
-  .item:hover .text{
+  .item:hover .text {
     font-size: 34px !important;
     line-height: 47px !important;
   }
-  h4{
+  h4 {
     font-weight: 600 !important;
+  }
+
+  .modal-dialog {
+    max-width: min-content !important;
   }
 }
 
@@ -199,9 +207,25 @@ p {
   color: #ada298;
 }
 
-.listImageStyle{
+.listImageStyle {
   display: grid;
   margin: auto;
   width: 20%;
-  padding-right: 20px; 
+  padding-right: 20px;
+}
+.modal-body {
+  padding: 0 !important;
+}
+
+.modal-content {
+  margin: auto;
+  /* max-width: min-content; */
+  transition: all 0.5s;
+}
+.disabled {
+  opacity: 1 !important;
+}
+
+.notdiable {
+  opacity: 0.5 !important;
 }
