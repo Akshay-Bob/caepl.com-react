@@ -39,7 +39,7 @@ export default function Product() {
     ));
 
   const photographyDataList = proData
-    .filter((item) => item.category === "photography")
+    .filter((item) => item.category === "PHOTOGRAPHY & RETOUCHING")
     .map((item, index) => (
       <div className="item" key={index}>
         <Link to={`/category?product=${item.url}`}>
@@ -57,7 +57,7 @@ export default function Product() {
     ));
 
   const printingDataList = proData
-    .filter((item) => item.category === "printing")
+    .filter((item) => item.category === "PRINTING & FABRICATION")
     .map((item, index) => (
       <div className="item" key={index}>
         <Link to={`/category?product=${item.url}`}>
@@ -85,15 +85,15 @@ export default function Product() {
             className="m-auto ps-xl-5 ps-lg-3 ps-md-3 ps-3 animate__animated animate__fadeInLeft animate__faster"
           >
             <h4 className="d-lg-none d-md-none d-none">
-              Invitations, stationary, <br />
-              coffee-table books, <br />
-              magazines and more...
+              INVITATIONS, STATIONARY, <br />
+              COFFEE-TABLE BOOKS, <br />
+              MAGAZINES AND MORE...
             </h4>
             <h4 className="d-lg-block d-md-block d-block">
-              Invitations, stationary, coffee-table books, magazines and more...
+                INVITATIONS, STATIONARY, COFFEE-TABLE BOOKS, MAGAZINES AND MORE…
             </h4>
             <p style={{ textAlign: "left" }}>
-              From pre-to-post production, we have you covered.
+                From pre-to-postproduction, we have you covered 
             </p>
           </Col>
           <Col md={8} lg={8} className="pe-md-0 pe-0 ps-md-0 ps-0">
@@ -117,8 +117,8 @@ export default function Product() {
               className="d-lg-none d-md-none d-none"
             >
               Right from product shoots to family <br />
-              portraits, CAEPL offers a state-of-the-art <br />
-              and fully-equipped studio to ensure nothing <br />
+              portraits, CAEPL offers a state-of-the-art, <br />
+              fully equipped studio to ensure nothing <br />
               short of high-quality images.
             </p>
 
@@ -126,9 +126,7 @@ export default function Product() {
               style={{ textAlign: "left" }}
               className="d-lg-block d-md-block d-block"
             >
-              Right from product shoots to family portraits, CAEPL offers a
-              state-of-the-art and fully-equipped studio to ensure nothing short
-              of high-quality images.
+              Right from product shoots to family portraits, CAEPL offers a state-of-the-art, fully equipped studio to ensure nothing short of high-quality images.
             </p>
           </Col>
           <Col md={8} className="pe-md-0 pe-0 ps-md-0 ps-0 my-md-auto">
@@ -145,8 +143,7 @@ export default function Product() {
           >
             <h4>PRINTING & FABRICATION</h4>
             <p style={{ textAlign: "left" }}>
-              From large-format printing and serigraphy to short-run printing
-              and packaging, we do it all.
+                From large-format printing and serigraphy to short-run printing and packaging, we do it all.
             </p>
           </Col>
           <Col md={8} className="pe-md-0 pe-0 ps-md-0 ps-0">

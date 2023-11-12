@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { proData } from "../Data/proData";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 import cross from "../Images/cross.svg";
 
 export default function BeforeAfterViwer(props) {
@@ -26,11 +26,13 @@ export default function BeforeAfterViwer(props) {
   const btnStyle1 = {
     background: "rgb(0 0 0 / 86%)",
     border: "none",
+    cursor: "pointer",
   };
 
   const btnStyle2 = {
     background: "rgb(0 0 0 / 86%)",
     border: "none",
+    cursor: "pointer",
   };
 
   const handleshowAfterImage = () => {
@@ -83,18 +85,27 @@ export default function BeforeAfterViwer(props) {
                   className="img-fluid"
                 /> */}
 
-                <LazyLoadImage
+                {/* <LazyLoadImage
                   src={
                     selectBfAfImg ? image.productLgAfter : image.productLgBefore
                   }
                   rounded
                   effect="opacity"
                   width="auto"
-                  height="600px"
-                  style={{ cursor: "pointer" }}
+                  height="635px"
+                  className="mobileImage"
+                />   */}
+
+                <Image
+                  src={image.productLgAfter}
+                  rounded
+                  effect="opacity"
+                  width="auto"
+                  height="635px"
+                  className="mobileImage"
                 />
                 {/* {console.log(image)} */}
-                <Modal.Footer style={footerStyle}>
+                {/* <Modal.Footer style={footerStyle}>
                   <Button
                     style={btnStyle2}
                     onMouseOver={handleshowBeforeImage}
@@ -109,7 +120,7 @@ export default function BeforeAfterViwer(props) {
                   >
                     After
                   </Button>
-                </Modal.Footer>
+                </Modal.Footer> */}
               </Carousel.Item>
             ))}
           </Carousel>

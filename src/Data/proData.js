@@ -297,30 +297,532 @@ import modelBigAfter33 from "../Images/final-view-models/after/33_Model_1G6P4740
 import modelBigAfter34 from "../Images/final-view-models/after/34_Model_1G6P6168-RGB.webp";
 import modelBigAfter35 from "../Images/final-view-models/after/35_Model_1G6P4816-RGB.webp";
 
+// invitation
+import invite1 from "../Images/invitation/home_view/DSC01593_Mix.webp";
+import invite2 from "../Images/invitation/home_view/01_Owo Invite_JPG.webp";
+import invite3 from "../Images/invitation/home_view/03_5th-June-2023_JPG.webp";
+import invite4 from "../Images/invitation/home_view/04_17-Feb-2023_JPG.webp";
+import invite5 from "../Images/invitation/home_view/05_4th-Feb-2023_JPG.webp";
+import invite6 from "../Images/invitation/home_view/06_4th-Jan-2023_JPG.webp";
+import invite7 from "../Images/invitation/home_view/07_16th-Dec-2022_JPG.webp";
+import invite8 from "../Images/invitation/home_view/08_6th-March-2020_JPG.webp";
+import invite9 from "../Images/invitation/home_view/09_4th-Feb-2018_JPG.webp";
+import invite10 from "../Images/invitation/home_view/10_No-Date_JPG.webp";
+import invite11 from "../Images/invitation/home_view/11_17th-June-2017_JPG.webp";
+import invite12 from "../Images/invitation/home_view/12_8th-Feb-2017_JPG.webp";
+import invite13 from "../Images/invitation/home_view/13_30-Dec-2016_JPG.webp";
+
+import inviteBigV1 from "../Images/invitation/slide_view/01/DSC01469.webp";
+import inviteBigV2 from "../Images/invitation/slide_view/01/DSC01593_Mix.webp";
+import inviteBigV3 from "../Images/invitation/slide_view/01/DSC08182_edit.webp";
+
+import inviteBigV4 from "../Images/invitation/slide_view/02/DSC01445.webp";
+import inviteBigV5 from "../Images/invitation/slide_view/02/DSC01449.webp";
+import inviteBigV6 from "../Images/invitation/slide_view/02/DSC01453.webp";
+import inviteBigV7 from "../Images/invitation/slide_view/02/DSC01462.webp";
+
+import inviteBigV8 from "../Images/invitation/slide_view/03/DSC01476.jpg";
+import inviteBigV9 from "../Images/invitation/slide_view/03/DSC01479.jpg";
+import inviteBigV10 from "../Images/invitation/slide_view/03/DSC01481.jpg";
+import inviteBigV11 from "../Images/invitation/slide_view/03/DSC01482_Mix.jpg";
+import inviteBigV12 from "../Images/invitation/slide_view/03/DSC01485.jpg";
+import inviteBigV13 from "../Images/invitation/slide_view/03/DSC01486.jpg";
+
+import inviteBigV14 from "../Images/invitation/slide_view/04/DSC01580.jpg";
+import inviteBigV15 from "../Images/invitation/slide_view/04/DSC01581.jpg";
+import inviteBigV16 from "../Images/invitation/slide_view/04/DSC01582.jpg";
+import inviteBigV17 from "../Images/invitation/slide_view/04/DSC01583.jpg";
+import inviteBigV18 from "../Images/invitation/slide_view/04/DSC01588.jpg";
+import inviteBigV19 from "../Images/invitation/slide_view/04/DSC01590_Mix.jpg";
+
+import inviteBigV20 from "../Images/invitation/slide_view/05/DSC01510.jpg";
+import inviteBigV21 from "../Images/invitation/slide_view/05/DSC01512.jpg";
+import inviteBigV22 from "../Images/invitation/slide_view/05/DSC01513.jpg";
+import inviteBigV23 from "../Images/invitation/slide_view/05/DSC01514_Mix.jpg";
+
+import inviteBigV24 from "../Images/invitation/slide_view/06/DSC01523_Mix.jpg";
+import inviteBigV25 from "../Images/invitation/slide_view/06/DSC01525.jpg";
+import inviteBigV26 from "../Images/invitation/slide_view/06/DSC01527.jpg";
+
+import inviteBigV27 from "../Images/invitation/slide_view/07/DSC01556.jpg";
+import inviteBigV28 from "../Images/invitation/slide_view/07/DSC01557.jpg";
+import inviteBigV29 from "../Images/invitation/slide_view/07/DSC01558.jpg";
+import inviteBigV30 from "../Images/invitation/slide_view/07/DSC01559.jpg";
+
+import inviteBigV31 from "../Images/invitation/slide_view/08/DSC01561.jpg";
+import inviteBigV32 from "../Images/invitation/slide_view/08/DSC01563.jpg";
+import inviteBigV33 from "../Images/invitation/slide_view/08/DSC01564.jpg";
+import inviteBigV34 from "../Images/invitation/slide_view/08/DSC01568.jpg";
+import inviteBigV35 from "../Images/invitation/slide_view/08/DSC01570.jpg";
+import inviteBigV36 from "../Images/invitation/slide_view/08/DSC01571.jpg";
+
+import inviteBigV37 from "../Images/invitation/slide_view/09/DSC01529.jpg";
+import inviteBigV38 from "../Images/invitation/slide_view/09/DSC01531_Mix.jpg";
+import inviteBigV39 from "../Images/invitation/slide_view/09/DSC01533.jpg";
+import inviteBigV40 from "../Images/invitation/slide_view/09/DSC01534.jpg";
+
+import inviteBigV41 from "../Images/invitation/slide_view/10/DSC01489.jpg";
+import inviteBigV42 from "../Images/invitation/slide_view/10/DSC01493.jpg";
+import inviteBigV43 from "../Images/invitation/slide_view/10/DSC01495.jpg";
+import inviteBigV44 from "../Images/invitation/slide_view/10/DSC01499.jpg";
+
+import inviteBigV45 from "../Images/invitation/slide_view/11/DSC01538.webp";
+import inviteBigV46 from "../Images/invitation/slide_view/11/DSC01539_Mix.webp";
+import inviteBigV47 from "../Images/invitation/slide_view/11/DSC01541_Mix.webp";
+import inviteBigV48 from "../Images/invitation/slide_view/11/DSC01546_Mix.webp";
+import inviteBigV49 from "../Images/invitation/slide_view/11/DSC01548_Mix.webp";
+import inviteBigV50 from "../Images/invitation/slide_view/11/DSC01550_Mix.webp";
+import inviteBigV51 from "../Images/invitation/slide_view/11/DSC01555.webp";
+
+import inviteBigV52 from "../Images/invitation/slide_view/12/DSC01501.jpg";
+import inviteBigV53 from "../Images/invitation/slide_view/12/DSC01502.jpg";
+import inviteBigV54 from "../Images/invitation/slide_view/12/DSC01504.jpg";
+import inviteBigV55 from "../Images/invitation/slide_view/12/DSC01505_Mix.jpg";
+
+import inviteBigV56 from "../Images/invitation/slide_view/13/DSC01520.jpg";
+import inviteBigV57 from "../Images/invitation/slide_view/13/DSC01521_Mix.jpg";
+
+// end
+
+import inviteSmV1 from "../Images/invitation/slide_option/01/DSC01469.webp";
+import inviteSmV2 from "../Images/invitation/slide_option/01/DSC01593_Mix.webp";
+import inviteSmV3 from "../Images/invitation/slide_option/01/DSC08182_edit.webp";
+
+import inviteSmV4 from "../Images/invitation/slide_option/02/DSC01445.webp";
+import inviteSmV5 from "../Images/invitation/slide_option/02/DSC01449.webp";
+import inviteSmV6 from "../Images/invitation/slide_option/02/DSC01453.webp";
+import inviteSmV7 from "../Images/invitation/slide_option/02/DSC01462.webp";
+
+import inviteSmV8 from "../Images/invitation/slide_option/03/DSC01476.jpg";
+import inviteSmV9 from "../Images/invitation/slide_option/03/DSC01479.jpg";
+import inviteSmV10 from "../Images/invitation/slide_option/03/DSC01481.jpg";
+import inviteSmV11 from "../Images/invitation/slide_option/03/DSC01482_Mix.jpg";
+import inviteSmV12 from "../Images/invitation/slide_option/03/DSC01485.jpg";
+import inviteSmV13 from "../Images/invitation/slide_option/03/DSC01486.jpg";
+
+import inviteSmV14 from "../Images/invitation/slide_option/04/DSC01580.jpg";
+import inviteSmV15 from "../Images/invitation/slide_option/04/DSC01581.jpg";
+import inviteSmV16 from "../Images/invitation/slide_option/04/DSC01582.jpg";
+import inviteSmV17 from "../Images/invitation/slide_option/04/DSC01583.jpg";
+import inviteSmV18 from "../Images/invitation/slide_option/04/DSC01588.jpg";
+import inviteSmV19 from "../Images/invitation/slide_option/04/DSC01590_Mix.jpg";
+
+import inviteSmV20 from "../Images/invitation/slide_option/05/DSC01510.jpg";
+import inviteSmV21 from "../Images/invitation/slide_option/05/DSC01512.jpg";
+import inviteSmV22 from "../Images/invitation/slide_option/05/DSC01513.jpg";
+import inviteSmV23 from "../Images/invitation/slide_option/05/DSC01514_Mix.jpg";
+
+import inviteSmV24 from "../Images/invitation/slide_option/06/DSC01523_Mix.jpg";
+import inviteSmV25 from "../Images/invitation/slide_option/06/DSC01525.jpg";
+import inviteSmV26 from "../Images/invitation/slide_option/06/DSC01527.jpg";
+
+import inviteSmV27 from "../Images/invitation/slide_option/07/DSC01556.jpg";
+import inviteSmV28 from "../Images/invitation/slide_option/07/DSC01557.jpg";
+import inviteSmV29 from "../Images/invitation/slide_option/07/DSC01558.jpg";
+import inviteSmV30 from "../Images/invitation/slide_option/07/DSC01559.jpg";
+
+import inviteSmV31 from "../Images/invitation/slide_option/08/DSC01561.jpg";
+import inviteSmV32 from "../Images/invitation/slide_option/08/DSC01563.jpg";
+import inviteSmV33 from "../Images/invitation/slide_option/08/DSC01564.jpg";
+import inviteSmV34 from "../Images/invitation/slide_option/08/DSC01568.jpg";
+import inviteSmV35 from "../Images/invitation/slide_option/08/DSC01570.jpg";
+import inviteSmV36 from "../Images/invitation/slide_option/08/DSC01571.jpg";
+
+import inviteSmV37 from "../Images/invitation/slide_option/09/DSC01529.jpg";
+import inviteSmV38 from "../Images/invitation/slide_option/09/DSC01531_Mix.jpg";
+import inviteSmV39 from "../Images/invitation/slide_option/09/DSC01533.jpg";
+import inviteSmV40 from "../Images/invitation/slide_option/09/DSC01534.jpg";
+
+import inviteSmV41 from "../Images/invitation/slide_option/10/DSC01489.jpg";
+import inviteSmV42 from "../Images/invitation/slide_option/10/DSC01493.jpg";
+import inviteSmV43 from "../Images/invitation/slide_option/10/DSC01495.jpg";
+import inviteSmV44 from "../Images/invitation/slide_option/10/DSC01499.jpg";
+
+import inviteSmV45 from "../Images/invitation/slide_option/11/DSC01538.jpg";
+import inviteSmV46 from "../Images/invitation/slide_option/11/DSC01539_Mix.jpg";
+import inviteSmV47 from "../Images/invitation/slide_option/11/DSC01541_Mix.jpg";
+import inviteSmV48 from "../Images/invitation/slide_option/11/DSC01546_Mix.jpg";
+import inviteSmV49 from "../Images/invitation/slide_option/11/DSC01548_Mix.jpg";
+import inviteSmV50 from "../Images/invitation/slide_option/11/DSC01550_Mix.jpg";
+import inviteSmV51 from "../Images/invitation/slide_option/11/DSC01555.jpg";
+
+import inviteSmV52 from "../Images/invitation/slide_option/12/DSC01501.jpg";
+import inviteSmV53 from "../Images/invitation/slide_option/12/DSC01502.jpg";
+import inviteSmV54 from "../Images/invitation/slide_option/12/DSC01504.jpg";
+import inviteSmV55 from "../Images/invitation/slide_option/12/DSC01505_Mix.jpg";
+
+import inviteSmV56 from "../Images/invitation/slide_option/13/DSC01520.jpg";
+import inviteSmV57 from "../Images/invitation/slide_option/13/DSC01521_Mix.jpg";
+
+import inviteBanner from '../Images/banner/Invite.webp';
+
+import inviteBigV58 from '../Images/invitation/slide_view/01/DSC01593_Mix.webp'
+
+// packaging
+import packgingBanner from '../Images/banner/packaging_banner.webp'
+import packgingSm01 from '../Images/packaging/home_view/01_Packaging.webp'
+import packgingSm02 from '../Images/packaging/home_view/02_Packaging.webp'
+import packgingSm03 from '../Images/packaging/home_view/03_Packaging.webp'
+import packgingSm04 from '../Images/packaging/home_view/04_Packaging.webp'
+import packgingSm05 from '../Images/packaging/home_view/05_Packaging.webp'
+import packgingSm06 from '../Images/packaging/home_view/06_Packaging.webp'
+import packgingSm07 from '../Images/packaging/home_view/07_Packaging.webp'
+import packgingSm08 from '../Images/packaging/home_view/08_Packaging.webp'
+import packgingSm09 from '../Images/packaging/home_view/09_Packaging.webp'
+import packgingSm10 from '../Images/packaging/home_view/10_Packaging.webp'
+import packgingSm11 from '../Images/packaging/home_view/11_Packaging.webp'
+import packgingSm12 from '../Images/packaging/home_view/12_Packaging.webp'
+import packgingSm13 from '../Images/packaging/home_view/13_Packaging.webp'
+import packgingSm14 from '../Images/packaging/home_view/14_Packaging.webp'
+import packgingSm15 from '../Images/packaging/home_view/15_Packaging.webp'
+import packgingSm16 from '../Images/packaging/home_view/16_Packaging.webp'
+
+import packgingBig01 from '../Images/packaging/final_view/01_Packaging.webp'
+import packgingBig02 from '../Images/packaging/final_view/02_Packaging.webp'
+import packgingBig03 from '../Images/packaging/final_view/03_Packaging.webp'
+import packgingBig04 from '../Images/packaging/final_view/04_Packaging.webp'
+import packgingBig05 from '../Images/packaging/final_view/05_Packaging.webp'
+import packgingBig06 from '../Images/packaging/final_view/06_Packaging.webp'
+import packgingBig07 from '../Images/packaging/final_view/07_Packaging.webp'
+import packgingBig08 from '../Images/packaging/final_view/08_Packaging.webp'
+import packgingBig09 from '../Images/packaging/final_view/09_Packaging.webp'
+import packgingBig10 from '../Images/packaging/final_view/10_Packaging.webp'
+import packgingBig11 from '../Images/packaging/final_view/11_Packaging.webp'
+import packgingBig12 from '../Images/packaging/final_view/12_Packaging.webp'
+import packgingBig13 from '../Images/packaging/final_view/13_Packaging.webp'
+import packgingBig14 from '../Images/packaging/final_view/14_Packaging.webp'
+import packgingBig15 from '../Images/packaging/final_view/15_Packaging.webp'
+import packgingBig16 from '../Images/packaging/final_view/16_Packaging.webp'
+
+
 export const proData = [
   {
     category: "products",
     img: service1,
     alt: "INVITATIONS",
     url: "invitation",
+    bannerImg: inviteBanner,
+    desc: "Elevate your event with our bespoke invitations. We create personalized masterpieces that capture your unique style and the essence of your celebration. Our expert designers craft invitations that reflect your vision, from elegant weddings to unforgettable events. Choose our screen-printed collection if you appreciate an added touch of luxury. An artform in itself,  we have assembled a team of highly skilled artists and craftsmen to create products that are bound to leave a lasting impression. Explore our collection and let us help you make a statement with invitations as special as your occasion. Your story, your style, your invitations.",
+    imgDatas: [
+      {
+        productSm: invite1,
+        imageView: [
+          {
+            proImg: inviteBigV1,
+            proImgOption: inviteSmV1,
+          },
+          {
+            proImg: inviteBigV2,
+            proImgOption: inviteSmV2,
+          },
+          {
+            proImg: inviteBigV3,
+            proImgOption: inviteSmV3,
+          },
+          {
+            proImg: inviteBigV58,
+            proImgOption: inviteSmV3,
+          },
+        ],
+      },
+      {
+        productSm: invite2,
+        imageView: [
+          {
+            proImg: inviteBigV4,
+            proImgOption: inviteSmV4,
+          },
+          {
+            proImg: inviteBigV5,
+            proImgOption: inviteSmV5,
+          },
+          {
+            proImg: inviteBigV6,
+            proImgOption: inviteSmV6,
+          },
+          {
+            proImg: inviteBigV7,
+            proImgOption: inviteSmV7,
+          },
+        ],
+      },
+      {
+        productSm: invite3,
+        imageView: [
+          {
+            proImg: inviteBigV8,
+            proImgOption: inviteSmV8,
+          },
+          {
+            proImg: inviteBigV9,
+            proImgOption: inviteSmV9,
+          },
+          {
+            proImg: inviteBigV10,
+            proImgOption: inviteSmV10,
+          },
+          {
+            proImg: inviteBigV11,
+            proImgOption: inviteSmV11,
+          },
+          {
+            proImg: inviteBigV12,
+            proImgOption: inviteSmV12,
+          },
+          {
+            proImg: inviteBigV13,
+            proImgOption: inviteSmV13,
+          },
+        ],
+      },
+      {
+        productSm: invite4,
+        imageView: [
+          {
+            proImg: inviteBigV14,
+            proImgOption: inviteSmV14,
+          },
+          {
+            proImg: inviteBigV15,
+            proImgOption: inviteSmV15,
+          },
+          {
+            proImg: inviteBigV16,
+            proImgOption: inviteSmV16,
+          },
+          {
+            proImg: inviteBigV17,
+            proImgOption: inviteSmV17,
+          },
+          {
+            proImg: inviteBigV18,
+            proImgOption: inviteSmV18,
+          },
+          {
+            proImg: inviteBigV19,
+            proImgOption: inviteSmV19,
+          },
+        ],
+      },
+      {
+        productSm: invite5,
+        imageView: [
+          {
+            proImg: inviteBigV20,
+            proImgOption: inviteSmV20,
+          },
+          {
+            proImg: inviteBigV21,
+            proImgOption: inviteSmV21,
+          },
+          {
+            proImg: inviteBigV22,
+            proImgOption: inviteSmV22,
+          },
+          {
+            proImg: inviteBigV23,
+            proImgOption: inviteSmV23,
+          },
+        ],
+      },
+      {
+        productSm: invite6,
+        imageView: [
+          {
+            proImg: inviteBigV24,
+            proImgOption: inviteSmV24,
+          },
+          {
+            proImg: inviteBigV25,
+            proImgOption: inviteSmV25,
+          },
+          {
+            proImg: inviteBigV26,
+            proImgOption: inviteSmV26,
+          },
+        ],
+      },
+      {
+        productSm: invite7,
+        imageView: [
+          {
+            proImg: inviteBigV27,
+            proImgOption: inviteSmV27,
+          },
+          {
+            proImg: inviteBigV28,
+            proImgOption: inviteSmV28,
+          },
+          {
+            proImg: inviteBigV29,
+            proImgOption: inviteSmV29,
+          },
+          {
+            proImg: inviteBigV30,
+            proImgOption: inviteSmV30,
+          },
+        ],
+      },
+      {
+        productSm: invite8,
+        imageView: [
+          {
+            proImg: inviteBigV31,
+            proImgOption: inviteSmV31,
+          },
+          {
+            proImg: inviteBigV32,
+            proImgOption: inviteSmV32,
+          },
+          {
+            proImg: inviteBigV33,
+            proImgOption: inviteSmV33,
+          },
+          {
+            proImg: inviteBigV34,
+            proImgOption: inviteSmV34,
+          },
+          {
+            proImg: inviteBigV35,
+            proImgOption: inviteSmV35,
+          },
+          {
+            proImg: inviteBigV36,
+            proImgOption: inviteSmV36,
+          },
+        ],
+      },
+      {
+        productSm: invite9,
+        imageView: [
+          {
+            proImg: inviteBigV37,
+            proImgOption: inviteSmV37,
+          },
+          {
+            proImg: inviteBigV38,
+            proImgOption: inviteSmV38,
+          },
+          {
+            proImg: inviteBigV39,
+            proImgOption: inviteSmV39,
+          },
+          {
+            proImg: inviteBigV40,
+            proImgOption: inviteSmV40,
+          },
+        ],
+      },
+      {
+        productSm: invite10,
+        imageView: [
+          {
+            proImg: inviteBigV41,
+            proImgOption: inviteSmV41,
+          },
+          {
+            proImg: inviteBigV42,
+            proImgOption: inviteSmV42,
+          },
+          {
+            proImg: inviteBigV43,
+            proImgOption: inviteSmV43,
+          },
+          {
+            proImg: inviteBigV44,
+            proImgOption: inviteSmV44,
+          },
+        ],
+      },
+      {
+        productSm: invite11,
+        imageView: [
+          {
+            proImg: inviteBigV45,
+            proImgOption: inviteSmV45,
+          },
+          {
+            proImg: inviteBigV46,
+            proImgOption: inviteSmV46,
+          },
+          {
+            proImg: inviteBigV47,
+            proImgOption: inviteSmV47,
+          },
+          {
+            proImg: inviteBigV48,
+            proImgOption: inviteSmV48,
+          },
+          {
+            proImg: inviteBigV49,
+            proImgOption: inviteSmV49,
+          },
+          {
+            proImg: inviteBigV50,
+            proImgOption: inviteSmV50,
+          },
+          {
+            proImg: inviteBigV51,
+            proImgOption: inviteSmV51,
+          },
+        ],
+      },
+      {
+        productSm: invite12,
+        imageView: [
+          {
+            proImg: inviteBigV52,
+            proImgOption: inviteSmV52,
+          },
+          {
+            proImg: inviteBigV53,
+            proImgOption: inviteSmV53,
+          },
+          {
+            proImg: inviteBigV54,
+            proImgOption: inviteSmV54,
+          },
+          {
+            proImg: inviteBigV55,
+            proImgOption: inviteSmV55,
+          },
+        ],
+      },
+      {
+        productSm: invite13,
+        imageView: [
+          {
+            proImg: inviteBigV56,
+            proImgOption: inviteSmV56,
+          },
+          {
+            proImg: inviteBigV57,
+            proImgOption: inviteSmV57,
+          },
+        ],
+      },
+    ],
   },
   {
     category: "products",
     img: service2,
     alt: "BESPOKE STATIONARY",
     url: "stationary",
+    desc:"Whether you are an individual, brand or corporate, sending out creative unique stationery is a must. From elegant letterheads to custom notepads, our expert designers ensure your stationery is a perfect match for your brand or personal expression. Explore our collection and transform your everyday communication into a statement of individuality. Your style, your message, your bespoke stationery."
   },
   {
     category: "products",
     img: service3,
     alt: "BOOKS",
     url: "books",
+    desc:"We're masters at crafting visually captivating and intellectually stimulating coffee table books. Our designs are a fusion of art, storytelling, and elegance, bound in every page. From photography to history, we transform your passions into conversation-starting centerpieces that add style and substance to your living space."
   },
   {
     category: "products",
     img: service4,
     alt: "CATALOGUES",
     url: "catalogues",
+    desc:"Ideal for collectors, galleries, and art enthusiasts, our catalogues provide a deep dive into the world of art. From paper selection to layout and cover design, each detail is carefully crafted. Whether you're showcasing a collection, promoting an exhibition, or seeking artistic inspiration, our catalogues are your gateway to the art world's beauty, creativity, and culture."
   },
 
   {
@@ -328,38 +830,112 @@ export const proData = [
     img: service5,
     alt: "MENUS",
     url: "menus",
+    desc: "We craft menus that reflect your unique culinary style and create a lasting impression. Our expert designers ensure each menu complements your restaurant's ambiance and cuisine. Explore our collection and make a statement with menus as exceptional as your food. Your flavor, your style, your custom menus."
   },
   {
     category: "products",
     img: service6,
     alt: "PHOTO ALBUMS",
     url: "photo-albums",
+    desc:"We specialize in creating exquisite photo albums that transform your cherished moments into enduring treasures. Our expertly designed albums are a blend of elegance and quality, meticulously curated to encapsulate your precious memories. Every page, a journey through time; every album, a testament to the moments that matter most."
   },
   {
     category: "products",
     img: service7,
     alt: "PACKAGING",
     url: "packaging",
+    bannerImg: packgingBanner,
+    imgDatas:[
+      {
+        productSm: packgingSm01,
+        productLg: packgingBig01
+      },
+      {
+        productSm: packgingSm02,
+        productLg: packgingBig02
+      },
+      {
+        productSm: packgingSm03,
+        productLg: packgingBig03
+      },
+      {
+        productSm: packgingSm04,
+        productLg: packgingBig04
+      },
+      {
+        productSm: packgingSm05,
+        productLg: packgingBig05
+      },
+
+      {
+        productSm: packgingSm06,
+        productLg: packgingBig06
+      },
+      {
+        productSm: packgingSm07,
+        productLg: packgingBig07
+      },
+      {
+        productSm: packgingSm08,
+        productLg: packgingBig08
+      },
+
+      {
+        productSm: packgingSm09,
+        productLg: packgingBig09
+      },
+      {
+        productSm: packgingSm10,
+        productLg: packgingBig10
+      },
+
+      {
+        productSm: packgingSm11,
+        productLg: packgingBig11
+      },{
+        productSm: packgingSm12,
+        productLg: packgingBig12
+      },
+      {
+        productSm: packgingSm13,
+        productLg: packgingBig13
+      },
+      {
+        productSm: packgingSm14,
+        productLg: packgingBig14
+      },
+      {
+        productSm: packgingSm15,
+        productLg: packgingBig15
+      },
+      {
+        productSm: packgingSm16,
+        productLg: packgingBig16
+      },
+    ]
+
   },
   {
-    category: "photography",
+    category: "PHOTOGRAPHY & RETOUCHING",
     img: photography1,
     alt: "JEWELLERY",
     url: "jewellery",
+    desc:"Capture the essence of art, design, and life with our versatile photography services. We specialize in photographing art, models, jewelry, cars, furniture and more. Whether you're an artist, designer, or brand, we showcase your creations with precision and style. From capturing the intricate details of jewelry to the sleek lines of automobiles, we breathe life into every frame."
   },
   {
-    category: "photography",
+    category: "PHOTOGRAPHY & RETOUCHING",
     img: photography2,
     alt: "PAINTINGS",
     url: "paintings",
+    desc:"Capture the essence of art, design, and life with our versatile photography services. We specialize in photographing art, models, jewelry, cars, furniture and more. Whether you're an artist, designer, or brand, we showcase your creations with precision and style. From capturing the intricate details of jewelry to the sleek lines of automobiles, we breathe life into every frame. "
   },
   {
-    category: "photography",
+    category: "PHOTOGRAPHY & RETOUCHING",
     img: photography3,
     alt: "SCULPTURES & SILVER",
     url: "sculptures-sliver",
     bannerImg: objectBanner,
-    desc: "A special occasion requires invites that are designed and conceptualized keeping the unique event in mind. Contact us for a consultation and let us design bespoke invitations that are perfect for you.",
+    desc: "Capture the essence of art, design, and life with our versatile photography services. We specialize in photographing art, models, jewelry, cars, furniture and more. Whether you're an artist, designer, or brand, we showcase your creations with precision and style. From capturing the intricate details of jewelry to the sleek lines of automobiles, we breathe life into every frame. ",
     imgDatas: [
       {
         productSm: object1,
@@ -504,12 +1080,12 @@ export const proData = [
     ],
   },
   {
-    category: "photography",
+    category: "PHOTOGRAPHY & RETOUCHING",
     img: photography4,
     alt: "TIMEPIECES",
     url: "timepieces",
     bannerImg: watchBanner,
-    desc: "A special occasion requires invites that are designed and conceptualized keeping the unique event in mind. Contact us for a consultation and let us design bespoke invitations that are perfect for you.",
+    desc: "Capture the essence of art, design, and life with our versatile photography services. We specialize in photographing art, models, jewelry, cars, furniture and more. Whether you're an artist, designer, or brand, we showcase your creations with precision and style. From capturing the intricate details of jewelry to the sleek lines of automobiles, we breathe life into every frame.",
     imgDatas: [
       {
         productSm: watch1,
@@ -674,237 +1250,245 @@ export const proData = [
     ],
   },
   {
-    category: "photography",
+    category: "PHOTOGRAPHY & RETOUCHING",
     img: photography5,
     alt: "AUTOMOBILES",
     url: "automobiles",
+    desc:"Capture the essence of art, design, and life with our versatile photography services. We specialize in photographing art, models, jewelry, cars, furniture and more. Whether you're an artist, designer, or brand, we showcase your creations with precision and style. From capturing the intricate details of jewelry to the sleek lines of automobiles, we breathe life into every frame."
   },
   {
-    category: "photography",
+    category: "PHOTOGRAPHY & RETOUCHING",
     img: photography6,
     alt: "FURNITURE",
     url: "furniture",
+    desc:"Capture the essence of art, design, and life with our versatile photography services. We specialize in photographing art, models, jewelry, cars, furniture and more. Whether you're an artist, designer, or brand, we showcase your creations with precision and style. From capturing the intricate details of jewelry to the sleek lines of automobiles, we breathe life into every frame."
   },
   {
-    category: "photography",
+    category: "PHOTOGRAPHY & RETOUCHING",
     img: photography7,
     alt: "PRODUCTS",
     url: "products",
+    desc:"Capture the essence of art, design, and life with our versatile photography services. We specialize in photographing art, models, jewelry, cars, furniture and more. Whether you're an artist, designer, or brand, we showcase your creations with precision and style. From capturing the intricate details of jewelry to the sleek lines of automobiles, we breathe life into every frame."
   },
   {
-    category: "photography",
+    category: "PHOTOGRAPHY & RETOUCHING",
     img: photography8,
     alt: "INTERIORS",
     url: "interiors",
+    desc: "Capture the essence of art, design, and life with our versatile photography services. We specialize in photographing art, models, jewelry, cars, furniture and more. Whether you're an artist, designer, or brand, we showcase your creations with precision and style. From capturing the intricate details of jewelry to the sleek lines of automobiles, we breathe life into every frame."
   },
   {
-    category: "photography",
+    category: "PHOTOGRAPHY & RETOUCHING",
     img: photography9,
     alt: "MODELS",
     url: "models",
     bannerImg: modalBanner,
-    desc: "A special occasion requires invites that are designed and conceptualized keeping the unique event in mind. Contact us for a consultation and let us design bespoke invitations that are perfect for you.",
+    desc: "Capture the essence of art, design, and life with our versatile photography services. We specialize in photographing art, models, jewelry, cars, furniture and more. Whether you're an artist, designer, or brand, we showcase your creations with precision and style. From capturing the intricate details of jewelry to the sleek lines of automobiles, we breathe life into every frame.",
     imgDatas: [
       {
         productSm: model1,
         productLgBefore: modelBigBefore1,
-        productLgAfter: modelBigAfter1,
+        productLg: modelBigAfter1,
       },
       {
         productSm: model2,
         productLgBefore: modelBigBefore2,
-        productLgAfter: modelBigAfter2,
+        productLg: modelBigAfter2,
       },
       {
         productSm: model3,
         productLgBefore: modelBigBefore3,
-        productLgAfter: modelBigAfter3,
+        productLg: modelBigAfter3,
       },
       {
         productSm: model4,
         productLgBefore: modelBigBefore4,
-        productLgAfter: modelBigAfter4,
+        productLg: modelBigAfter4,
       },
       {
         productSm: model5,
         productLgBefore: modelBigBefore5,
-        productLgAfter: modelBigAfter5,
+        productLg: modelBigAfter5,
       },
       {
         productSm: model6,
         productLgBefore: modelBigBefore6,
-        productLgAfter: modelBigAfter6,
+        productLg: modelBigAfter6,
       },
       {
         productSm: model7,
         productLgBefore: modelBigBefore7,
-        productLgAfter: modelBigAfter7,
+        productLg: modelBigAfter7,
       },
       {
         productSm: model8,
         productLgBefore: modelBigBefore8,
-        productLgAfter: modelBigAfter8,
+        productLg: modelBigAfter8,
       },
       {
         productSm: model9,
         productLgBefore: modelBigBefore9,
-        productLgAfter: modelBigAfter9,
+        productLg: modelBigAfter9,
       },
       {
         productSm: model10,
         productLgBefore: modelBigBefore10,
-        productLgAfter: modelBigAfter10,
+        productLg: modelBigAfter10,
       },
       {
         productSm: model11,
         productLgBefore: modelBigBefore11,
-        productLgAfter: modelBigAfter11,
+        productLg: modelBigAfter11,
       },
       {
         productSm: model12,
         productLgBefore: modelBigBefore12,
-        productLgAfter: modelBigAfter12,
+        productLg: modelBigAfter12,
       },
       {
         productSm: model13,
         productLgBefore: modelBigBefore13,
-        productLgAfter: modelBigAfter13,
+        productLg: modelBigAfter13,
       },
       {
         productSm: model14,
         productLgBefore: modelBigBefore14,
-        productLgAfter: modelBigAfter14,
+        productLg: modelBigAfter14,
       },
       {
         productSm: model15,
         productLgBefore: modelBigBefore15,
-        productLgAfter: modelBigAfter15,
+        productLg: modelBigAfter15,
       },
       {
         productSm: model16,
         productLgBefore: modelBigBefore16,
-        productLgAfter: modelBigAfter16,
+        productLg: modelBigAfter16,
       },
       {
         productSm: model17,
         productLgBefore: modelBigBefore17,
-        productLgAfter: modelBigAfter17,
+        productLg: modelBigAfter17,
       },
       {
         productSm: model18,
         productLgBefore: modelBigBefore18,
-        productLgAfter: modelBigAfter18,
+        productLg: modelBigAfter18,
       },
       {
         productSm: model19,
         productLgBefore: modelBigBefore19,
-        productLgAfter: modelBigAfter19,
+        productLg: modelBigAfter19,
       },
       {
         productSm: model20,
         productLgBefore: modelBigBefore20,
-        productLgAfter: modelBigAfter20,
+        productLg: modelBigAfter20,
       },
       {
         productSm: model21,
         productLgBefore: modelBigBefore21,
-        productLgAfter: modelBigAfter21,
+        productLg: modelBigAfter21,
       },
       {
         productSm: model22,
         productLgBefore: modelBigBefore22,
-        productLgAfter: modelBigAfter22,
+        productLg: modelBigAfter22,
       },
       {
         productSm: model23,
         productLgBefore: modelBigBefore23,
-        productLgAfter: modelBigAfter23,
+        productLg: modelBigAfter23,
       },
       {
         productSm: model24,
         productLgBefore: modelBigBefore24,
-        productLgAfter: modelBigAfter24,
+        productLg: modelBigAfter24,
       },
       {
         productSm: model25,
         productLgBefore: modelBigBefore25,
-        productLgAfter: modelBigAfter25,
+        productLg: modelBigAfter25,
       },
       {
         productSm: model26,
         productLgBefore: modelBigBefore26,
-        productLgAfter: modelBigAfter26,
+        productLg: modelBigAfter26,
       },
       {
         productSm: model27,
         productLgBefore: modelBigBefore27,
-        productLgAfter: modelBigAfter27,
+        productLg: modelBigAfter27,
       },
       {
         productSm: model28,
         productLgBefore: modelBigBefore28,
-        productLgAfter: modelBigAfter28,
+        productLg: modelBigAfter28,
       },
       {
         productSm: model29,
         productLgBefore: modelBigBefore29,
-        productLgAfter: modelBigAfter29,
+        productLg: modelBigAfter29,
       },
       {
         productSm: model30,
         productLgBefore: modelBigBefore30,
-        productLgAfter: modelBigAfter30,
+        productLg: modelBigAfter30,
       },
       {
         productSm: model31,
         productLgBefore: modelBigBefore31,
-        productLgAfter: modelBigAfter31,
+        productLg: modelBigAfter31,
       },
       {
         productSm: model32,
         productLgBefore: modelBigBefore32,
-        productLgAfter: modelBigAfter32,
+        productLg: modelBigAfter32,
       },
       {
         productSm: model33,
         productLgBefore: modelBigBefore33,
-        productLgAfter: modelBigAfter33,
+        productLg: modelBigAfter33,
       },
       {
         productSm: model34,
         productLgBefore: modelBigBefore34,
-        productLgAfter: modelBigAfter34,
+        productLg: modelBigAfter34,
       },
       {
         productSm: model35,
         productLgBefore: modelBigBefore35,
-        productLgAfter: modelBigAfter35,
+        productLg: modelBigAfter35,
       },
     ],
   },
   {
-    category: "photography",
+    category: "PHOTOGRAPHY & RETOUCHING",
     img: photography10,
     alt: "SCANNING & RETOUCHING",
     url: "scanning-retouching",
+    desc:"Unlock the true potential of your photos with our expert photography retouching services. Our skilled team specializes in colour correction, ensuring your pictures reach their full visual impact. Whether it's portraits, landscapes, or product photography, we transform ordinary shots into extraordinary visuals. Experience the magic of flawless colours and impeccable image quality with our retouching expertise. Explore our services and let your pictures shine like never before. Your vision, our precision. "
   },
   {
-    category: "printing",
+    category: "PRINTING & FABRICATION",
     img: printing1,
-    alt: "SHORT-RUN PRINTING (DIGITAL)",
+    alt: "SHORT RUN PRINTING (DIGITAL)",
     url: "short-run-printing",
+    desc:"Whether you need a limited batch of brochures, flyers, or promotional materials, we've got you covered. Our high-quality, quick-turnaround printing services are perfect for small businesses, events, and special projects. Explore our short-run printing solutions and make an impact without the bulk. Your small batch, our big quality."
   },
   {
-    category: "printing",
+    category: "PRINTING & FABRICATION",
     img: printing2,
-    alt: "LARGE-FORMAT PRINTING (INKJET)",
+    alt: "LARGE FORMAT PRINTING (INKJET)",
     url: "large-run-printing",
+    desc:"Large format prints must be impactful and convey everything it needs to in the span of a glance. Attract your audiences’ attention with a large format design that adds dynamism to a space with its colours and messaging. Choose CAEPL to help you conceptualize a design that is effective and appealing."
   },
   {
-    category: "printing",
+    category: "PRINTING & FABRICATION",
     img: printing3,
     alt: "SCREEN-PRINTING",
     url: "screen-printing",
+    desc:"Elevate your stationery and invitations with our exquisite, screen-printed collection. Whether you're sending out elegant wedding invitations, personalizing stationery, or seeking unique greeting cards, our beautiful, customizable screen-printed creations are designed for those who appreciate the added touch of luxury. An artform in itself,  we have assembled a team of highly skilled artists and craftsmen to create products that are bound to leave a lasting impression. "
   },
 ];
 

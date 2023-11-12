@@ -11,6 +11,17 @@
     border: none !important;
     font-size: 14px !important;
   }
+  .productOptionsSlide .carousel-control-prev{
+    left: 0;
+    rotate: 0deg;
+    top: 32% !important;
+  }
+
+  .productOptionsSlide .carousel-control-next{
+    left: 87%;
+    rotate: 0deg;
+    top: 32% !important;
+  }
 
   h2::before,
   h2::after {
@@ -31,7 +42,12 @@
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
     width: 1.5rem !important;
+    height: 20px !important;
   }
+.optionImages{
+  height:70px;
+  width:100%;
+}
   h4 {
     font-size: 1.2rem !important;
     font-weight: 600 !important;
@@ -74,12 +90,44 @@
   .dropDownList {
     padding: 0 30px;
   }
-  .listImageStyle {
+  /* .listImageStyle {
     width: 40% !important;
     padding-right: 0px !important;
+  } */
+  .productImgStyle{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
   .modal-dialog {
     margin: 20px !important;
+  }
+  .modal-dialog {   
+    max-width: 550px !important;
+  }
+  .mobileImage{
+    height: auto;
+    width: 100%;
+  }
+  .modal-footer{
+    padding-bottom: 0px !important;
+  }
+  /* .smallScrollImage{
+    flex-direction: row;
+    overflow: scroll;
+    padding-top: 20px;
+    display: flex;
+    gap:20px;
+    height: auto !important;
+  } */
+  .productOptionsSlide{
+      height: auto;
+      overflow: scroll;
+  }
+  .closeBtn{
+    right: -3% !important;
+  }
+  .displatedSlideoptioVoew{
+    width: 150px;
   }
 }
 
@@ -138,11 +186,39 @@
   iframe {
     height: 100%;
   }
+  .modal-dialog {   
+    max-width: 550px !important;
+  }
+  .mobileImage{
+    height: auto;
+    width: 100%;
+  }
+  .productImgStyle{
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+  }
+  .productOptionsSlide{
+    height: 350px;
+    overflow: hidden;
+  }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .productImgStyle{
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+  }
+}
+
+
 /* ipad-pro */
 @media (min-width: 1024px) and (max-width: 1366px) {
   .navbar-nav {
     gap: 10px;
+  }
+  .productImgStyle{
+    grid-template-columns: repeat(5, 1fr);
+    gap:10px;
   }
   .navbar-brand {
     font-size: 23px !important;
@@ -153,7 +229,7 @@
     width: 40%;
   }
   .nav-link {
-    font-size: 20px !important;
+    font-size: 19px !important;
   }
   h4 {
     font-size: 21px !important;
@@ -171,8 +247,69 @@
   iframe {
     height: 100%;
   }
+  .modal-dialog {
+    max-width: min-content !important;
+  }
+ .mobileImage{
+  height: 550px !important;
+  width: auto !important;
+ }
+
+ /* .mobileImage {
+    height: auto;
+    width: 100%;
+ } */
+ .productSliderStyle{
+  width: 100% !important;
+}
+.productOptionsSlide{
+  height: 500px;
+  /* overflow-y: scroll; */
 }
 
+.optionImages{
+  height:80x;
+  width:100%;
+}
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .modal-dialog {
+    max-width: min-content !important;
+  }
+  .productImgStyle{
+    grid-template-columns: repeat(5, 1fr);
+    gap:10px;
+  }
+  .productSliderStyle{
+    width: 75% !important;
+  }
+  .productOptionsSlide{
+    height: 550px;
+    /* overflow-y: scroll; */
+  }
+}
+
+@media(min-width: 1921px) and (max-width: 2560px){
+  .modal-dialog {
+    max-width: min-content !important;
+    /* background-color: red; */
+  }
+  .mobileImage{
+    height: 800px  !important;
+  }
+  /* .modal-content button img{
+    width: 35px !important;
+  } */
+  .productImgStyle{
+    grid-template-columns: repeat(5, 1fr);
+    gap:10px;
+  }
+  .productOptionsSlide{
+    height: 550px;
+    /* overflow-y: scroll; */
+  }
+}
 /* laptop */
 
 @media (min-width: 1920px) {
@@ -187,10 +324,10 @@
   h4 {
     font-weight: 600 !important;
   }
-
-  .modal-dialog {
-    max-width: min-content !important;
+  .productImgStyle{
+    grid-template-columns: repeat(5, 1fr);
   }
+
 }
 
 p {
@@ -210,9 +347,11 @@ p {
 .listImageStyle {
   display: grid;
   margin: auto;
-  width: 20%;
-  padding-right: 20px;
+  width: auto;
+  padding-right: 10px;
+  padding-left: 10px;
 }
+
 .modal-body {
   padding: 0 !important;
 }
@@ -221,11 +360,20 @@ p {
   margin: auto;
   /* max-width: min-content; */
   transition: all 0.5s;
+  top: 30px;
 }
 .disabled {
   opacity: 1 !important;
+  cursor: pointer;
 }
 
 .notdiable {
   opacity: 0.5 !important;
+  cursor: pointer;
+}
+
+
+
+.akshay{
+  height: 500px !important;
 }

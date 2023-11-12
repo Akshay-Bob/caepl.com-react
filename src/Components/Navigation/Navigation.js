@@ -196,12 +196,12 @@ export default function Navigation() {
                   }
                   to="/"
                 >
-                  <i className="fa-solid fa-house-chimney fs-5"></i>
+                  <i className="fa-solid fa-house-chimney fs-7"></i>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#footer">
-                  <i className="fa-solid fa-phone fs-5"></i>
+                  <i className="fa-solid fa-phone fs-7"></i>
                 </a>
               </li>
             </ul>

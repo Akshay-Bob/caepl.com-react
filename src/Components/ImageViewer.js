@@ -3,10 +3,16 @@ import Modal from "react-bootstrap/Modal";
 import Carousel from "react-bootstrap/Carousel";
 import Image from "react-bootstrap/Image";
 import { Button } from "react-bootstrap";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 import cross from "../Images/cross.svg";
+import { useLocation } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function ImageViewer(props) {
+  const location = useLocation();
+  const useParams = new URLSearchParams(location.search);
+  const type = useParams.get("product");
+
   const [zoom, setZoom] = useState(1);
   const [isZoomed, setIsZoomed] = useState(false);
   const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 });
@@ -48,6 +54,7 @@ export default function ImageViewer(props) {
     }
   }, [isZoomed]);
 
+
   return (
     <Modal show={props.show} onHide={props.handleClose} centered>
       <Button
@@ -70,20 +77,21 @@ export default function ImageViewer(props) {
           {props.images.map((image, index) => (
             <Carousel.Item
               key={index}
-              onMouseOver={handleMouseOver}
-              onMouseOut={handleMouseOut}
-              onMouseMove={handleMouseMove}
+              onMouseOver={type === "models" ? null : handleMouseOver}
+              onMouseOut={type === "models" ? null : handleMouseOut}
+              onMouseMove={type === "models" ? null : handleMouseMove}
             >
-              <LazyLoadImage
+              <Image
                 src={image}
                 rounded
-                // className="img-fluid"
                 width="auto"
-                height="600px"
+                height="635px"
                 style={imageStyle}
+                className="mobileImage"
               />
             </Carousel.Item>
           ))}
+
         </Carousel>
       </Modal.Body>
     </Modal>

@@ -1,7 +1,7 @@
 import React from 'react'
-import HomeSlider from './Components/Homeslide/HomeSlider'
-import AboutUs from './Components/AboutUs'
-import Product from './Components/ProductSec/Product'
+import HomeSlider from '../Components/Homeslide/HomeSlider'
+import AboutUs from './AboutUs'
+import Product from '../Components/ProductSec/Product'
 
 export default function Home() {
   return (

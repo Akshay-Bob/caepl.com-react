@@ -36,7 +36,7 @@ nav ul li a {
   display: none;
 }
 
-nav ul li a::after {
+/* nav ul li a::after {
   position: absolute;
   bottom: 4px;
   left: 0;
@@ -48,7 +48,7 @@ nav ul li a::after {
   background: #585757;
   height: 2px;
   transition: all 0.5s;
-}
+} */
 
 a.nav-link.active {
   color: #fff !important;
@@ -110,4 +110,8 @@ button.navbar-toggler:focus-visible {
 
 .text-grey {
   color: #ada298;
+}
+
+.fs-7 {
+  font-size: 1.2rem;
 }

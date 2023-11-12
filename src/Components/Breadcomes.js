@@ -8,7 +8,7 @@ const breadStyles = {
   color: "#42413f",
 };
 
-function BreadcrumbExample(props) {
+function Breadcomes(props) {
   return (
     <Breadcrumb>
       <Breadcrumb.Item>
@@ -27,4 +27,4 @@ function BreadcrumbExample(props) {
   );
 }
 
-export default BreadcrumbExample;
+export default Breadcomes;

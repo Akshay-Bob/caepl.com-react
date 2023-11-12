@@ -1,12 +1,12 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Breadcomes from "./Breadcomes";
+import Breadcomes from "../Breadcomes";
 import { Link, useLocation } from "react-router-dom";
-import { proData } from "../Data/proData";
+import { proData } from "../../Data/proData";
 import Image from "react-bootstrap/Image";
-import ImageViewer from "./ImageViewer";
-import BeforeAfterViwer from "./BeforeAfterViwer";
+import ImageViewer from "../ImageViewer";
+import BeforeAfterViwer from "../BeforeAfterViwer";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Category() {

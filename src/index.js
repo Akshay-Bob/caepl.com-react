@@ -8,9 +8,9 @@ import "animate.css";
 import HttpsRedirect from "react-https-redirect";
 import { RouterProvider } from "react-router-dom";
 import { createBrowserRouter } from "react-router-dom";
-import Home from "./Home";
-import AboutUs from "./Components/AboutUs";
-import Category from "./Components/Category";
+import Home from "./Pages/Home";
+import AboutUs from "./Pages/AboutUs";
+import Category from "./Components/Category/Category";
 
 const router = createBrowserRouter([
   {
