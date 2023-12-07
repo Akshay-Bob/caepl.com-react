@@ -3503,10 +3503,10 @@ export const proData = [
       {
         productSm: automobile1,
         imageView: [
-          {
-            proImg: automobilesBig01,
-            proImgOption: automobilesSm01,
-          },
+          // {
+          //   proImg: automobilesBig01,
+          //   proImgOption: automobilesSm01,
+          // },
           {
             proImg: automobilesBig02,
             proImgOption: automobilesSm02,

@@ -31,5 +31,5 @@
 
 .productOptionsSlide .carousel-control-next-icon{
     background-image: url('../../Images/left-arrow-next-svgrepo-options-com.svg') !important;
-    rotate: 180deg !important;
+    /* rotate: 180deg !important; */
 }

@@ -27,7 +27,7 @@ export default function RightVerticalSlider({ slideOption, activeIndex, setActiv
 
   return (
     <>
-      <div className='d-md-block d-flex overflow-md-hidden overflow-auto'>
+      <div className='d-md-block d-flex overflow-md-hidden overflow-auto m-auto'>
         {getDisplayedSlides().map((i) => (
           <div
             key={i}
