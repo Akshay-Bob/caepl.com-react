@@ -11,6 +11,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import Carousal from "../Carousals/Carousal";
+import useFetchApi from "../../Data/fetchApi";
 
 function Category() {
   const [selectedProductIndex, setSelectedProductIndex] = useState(false);
@@ -19,6 +20,14 @@ function Category() {
   const [selectedSlideImage, setSelectedSlideImage] = useState();
   const [display, setDisplay] = useState("none");
 
+
+  // if (data && data.data) {
+  //   data.data.map(i => console.log(i));
+  // } else {
+  //   console.log("data is null or undefined");
+  // }
+
+  
   const handleClose = () => {
     setShow(false);
     // setSelectedProductIndex(false);
@@ -42,6 +51,8 @@ function Category() {
   const type = useParams.get("product");
   const matchingService = proData.find((item) => item.url === type);
 
+  // {(data && data.data.map(i => console.log(i.attributes.product_url  === type)))}
+  
   if (!matchingService) {
     return <div>Service not found</div>; // Handle the case where there's no matching service
   }
@@ -55,14 +66,19 @@ function Category() {
             onClick={() => handleShow(index)}
             style={{ cursor: "pointer" }}
             // width={'200px'}
-          />
+            />
         </li>
       ))
-    : [];
+      : [];
+      
+      const imageViews = matchingService.imgDatas
+      ? matchingService.imgDatas.map((item) => item.imageView)
+      : [];
+      
 
-  const imageViews = matchingService.imgDatas
-    ? matchingService.imgDatas.map((item) => item.imageView)
-    : [];
+      //console.log(data.att);
+      
+    //  {(data && data.data.find (i => i.attributes.product_url === type))}
 
   return (
     <>
@@ -95,8 +111,8 @@ function Category() {
         </Row>
       </Container>
 
-      {/* {console.log(type)} */}
-      {type === "invitation" ? (
+      {/* {console.log(imageViews[selectedSlideImage])} */}
+       {type === "invitation" || type === "menus" || type === "stationary" || type === "automobiles" || type === "furniture" ? (
         <ProductImageSlider
           images={imageViews[selectedSlideImage]}
           activeIndex={selectedSlideImage}
@@ -118,8 +134,8 @@ function Category() {
           handleSelect={handleSelect} // Pass the handleSelect function
         />
       )}
+
     </>
   );
-}
-
+};
 export default Category;

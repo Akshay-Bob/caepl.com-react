@@ -35,7 +35,7 @@ export default function MobileImageCarousal({handleClose, activeIndex, handleSel
                       onMouseOver={handleMouseOver}
                       onMouseOut={handleMouseOut}
                       onMouseMove={handleMouseMove}
-                      onTouchStart={handleTouchStart}
+                      onClick={handleTouchStart}
                       onTouchMove={handleTouchMove}
                       onDoubleClick={handleTouchOut}
                       onMouseDown={handleMouseDown}

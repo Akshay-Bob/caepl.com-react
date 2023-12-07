@@ -4,6 +4,7 @@ import cross from "../../Images/cross.svg";
 import RightVerticalSlider from "../RightVerticalSlider";
 import MobileImageCarousal from "../MobileImageCarousal";
 // import MobileViewProductSlider from "./MobileViewProductSlider";
+import './productImageSlider.css'
 
 export default function ProductImageSlider(props) {
   const sliderImagesData = props.images
@@ -198,6 +199,7 @@ export default function ProductImageSlider(props) {
                   handleMouseDown={handleMouseDown} 
                   sliderImagesData={sliderImagesData}
                   imageStyle={imageStyle}
+                
                 />
               </Col>
               <Col md={2} className="m-auto productOptionsSlide pt-3 position-relative d-flex align-items-center">

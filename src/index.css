@@ -252,15 +252,16 @@ h6.update {
 
 .carousel-control-next {
   right: 0px;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .carousel-control-prev {
+  opacity: 0.5;
   left: 10px;
 }
 
 .carousel-control-prev:hover, .carousel-control-next:hover{
-  opacity: 1;
+  opacity: 1 !important;
 }
 .modal-header {
   position: absolute;
@@ -274,23 +275,34 @@ h6.update {
 .carousel-control-next-icon{
   background-image: url('./Images/left-arrow-next-svgrepo-com.svg') !important;
   rotate: 180deg;
-  height: 25px !important;
+  height: 20px !important;
 }
 
 .carousel-control-prev-icon{
   background-image: url('./Images/left-arrow-next-svgrepo-com.svg') !important;
-  height: 25px !important;
+  height: 20px !important;
 }
 
 .productOptionsSlide .carousel-control-prev{
   top: -7.5% !important;
   rotate: 90deg;
   left: 37%;
+  background: none !important;
 }
 
+.productOptionsSlide .carousel-control-prev-icon{
+  background-image: url('./Images/left-arrow-next-svgrepo-com.svg') !important;
+}
+
+.productOptionsSlide .carousel-control-next-icon{
+  background-image: url('./Images/left-arrow-next-svgrepo-com.svg') !important;
+  rotate: 180deg;
+}
 .productOptionsSlide .carousel-control-next{
   top: 100% !important;
   rotate: 90deg;
   left: 37%;
+  background: none !important;
+
 }
 

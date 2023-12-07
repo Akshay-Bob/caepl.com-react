@@ -4,6 +4,8 @@ import menuBar from "../../Images/menuBar.png";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { serviceData } from "../ProductSec/Product";
 import { ProductsOptListData, serviceOptListData } from "../../Data/proData";
+import useFetchApi from "../../Data/fetchApi";
+
 
 export default function Navigation() {
   const [servicesClicked, setServicesClicked] = useState(false);
@@ -94,6 +96,7 @@ export default function Navigation() {
               className={subhead.uri === type ? "activeW" : "text-grey"}
               onClick={handleServiceClick}
             >
+              {/* {console.log(data & data.data.map(i => i.attributes.product_name))} */}
               {subhead.title}
             </Link>
           </li>

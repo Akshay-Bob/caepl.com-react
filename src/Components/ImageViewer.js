@@ -8,6 +8,7 @@ import cross from "../Images/cross.svg";
 import { useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+
 export default function ImageViewer(props) {
   const location = useLocation();
   const useParams = new URLSearchParams(location.search);
@@ -39,6 +40,33 @@ export default function ImageViewer(props) {
     setImagePosition({ x, y });
   };
 
+  const handleTouchStart = () => {
+    setZoom(2.5);
+    setIsZoomed(true);
+  };
+
+  const handleTouchOut = (e) => {
+    // Prevent the default behavior of the touch event
+    e.preventDefault();
+  
+    setZoom(1);
+    setIsZoomed(false);
+    setImagePosition({ x: 0, y: 0 });
+  };
+  
+
+  const handleTouchMove = (e) => {
+    // Stop the touch event propagation to prevent changing the active image
+    e.stopPropagation();
+  
+    // Update the image position based on the touch position
+    const image = e.target;
+    const imageRect = image.getBoundingClientRect();
+    const x = ((e.touches[0].clientX - imageRect.left) / imageRect.width) * 100;
+    const y = ((e.touches[0].clientY - imageRect.top) / imageRect.height) * 100;
+    setImagePosition({ x, y });
+  };
+
   const imageStyle = {
     transform: `scale(${zoom})`,
     transition: isZoomed ? "transform 0.5s" : "none",
@@ -56,7 +84,7 @@ export default function ImageViewer(props) {
 
 
   return (
-    <Modal show={props.show} onHide={props.handleClose} centered>
+    <Modal show={props.show} onHide={props.handleClose} centered className="imageViewer">
       <Button
         variant="secondary"
         onClick={props.handleClose}
@@ -73,22 +101,26 @@ export default function ImageViewer(props) {
             props.handleSelect(selectedIndex);
           }}
           interval={null}
-        >
+          >
           {props.images.map((image, index) => (
             <Carousel.Item
               key={index}
               onMouseOver={type === "models" ? null : handleMouseOver}
               onMouseOut={type === "models" ? null : handleMouseOut}
               onMouseMove={type === "models" ? null : handleMouseMove}
+              onClick={type === "models" ? null :handleTouchStart}
+              onTouchMove={type === "models" ? null :handleTouchMove}
+              onDoubleClick={type === "models" ? null :handleTouchOut}
             >
               <Image
                 src={image}
-                rounded
+                //rounded
                 width="auto"
                 height="635px"
                 style={imageStyle}
                 className="mobileImage"
               />
+              
             </Carousel.Item>
           ))}
 

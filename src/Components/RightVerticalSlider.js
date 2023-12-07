@@ -11,14 +11,19 @@ export default function RightVerticalSlider({ slideOption, activeIndex, setActiv
     setSlideIndex((prevIndex) => (prevIndex - 1 + slideOption.length) % slideOption.length);
   };
 
-  const getDisplayedSlides = () => {
-    const displayedSlides = [];
-    for (let i = 0; i < 4; i++) {
-      const index = (slideIndex + i) % slideOption.length;
-      displayedSlides.push(index);
-    }
-    return displayedSlides;
-  };
+ const getDisplayedSlides = () => {
+  const displayedSlides = [];
+  const numSlidesToDisplay = 4;
+
+  for (let i = 0; i < Math.min(numSlidesToDisplay, slideOption.length); i++) {
+    const index = (slideIndex + i) % slideOption.length;
+    displayedSlides.push(index);
+    console.log(i);
+  }
+
+  return displayedSlides;
+};
+
 
   return (
     <>
